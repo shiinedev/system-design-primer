@@ -9,3 +9,6 @@
   (no `Co-Authored-By: Claude ...`, no `Claude-Session: ...`).
 - **Never put "claude" in a branch name.** Use short, descriptive branch names
   based on the work (e.g. `docs-site`).
+- **Keep commit messages simple, readable, and meaningful.** Prefer a short
+  one-line summary (e.g. `Fix Vercel build: track src/lib`). Use plain ASCII
+  characters. Only add a body when it genuinely helps, and keep it brief.
