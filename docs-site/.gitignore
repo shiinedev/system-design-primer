@@ -24,3 +24,6 @@ yarn-error.log*
 .env*.local
 .vercel
 next-env.d.ts
+# This is a Next.js app; the repo-root .gitignore ignores `lib/` (a Python
+# venv pattern), which would otherwise drop our source dir src/lib.
+!src/lib/
