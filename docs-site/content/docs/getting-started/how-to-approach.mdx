@@ -3,13 +3,17 @@ title: How to approach a system design interview question
 description: A step-by-step approach to tackling system design interview questions.
 ---
 
-> How to tackle a system design interview question.
-
+<Callout title="Lead the conversation">
 The system design interview is an **open-ended conversation**.  You are expected to lead it.
+</Callout>
 
 You can use the following steps to guide the discussion.  To help solidify this process, work through the [System design interview questions with solutions](/docs/interview-questions/system-design-questions) section using the following steps.
 
-## Step 1: Outline use cases, constraints, and assumptions
+<Steps>
+
+<Step>
+
+### Outline use cases, constraints, and assumptions
 
 Gather requirements and scope the problem.  Ask questions to clarify use cases and constraints.  Discuss assumptions.
 
@@ -22,14 +26,22 @@ Gather requirements and scope the problem.  Ask questions to clarify use cases a
 * How many requests per second do we expect?
 * What is the expected read to write ratio?
 
-## Step 2: Create a high level design
+</Step>
+
+<Step>
+
+### Create a high level design
 
 Outline a high level design with all important components.
 
 * Sketch the main components and connections
 * Justify your ideas
 
-## Step 3: Design core components
+</Step>
+
+<Step>
+
+### Design core components
 
 Dive into details for each core component.  For example, if you were asked to [design a url shortening service](https://github.com/shiinedev/system-design-primer/blob/master/solutions/system_design/pastebin/README.md), discuss:
 
@@ -42,7 +54,11 @@ Dive into details for each core component.  For example, if you were asked to [d
     * Database lookup
 * API and object-oriented design
 
-## Step 4: Scale the design
+</Step>
+
+<Step>
+
+### Scale the design
 
 Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?
 
@@ -52,6 +68,10 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 * Database sharding
 
 Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [principles of scalable system design](/docs).
+
+</Step>
+
+</Steps>
 
 ## Back-of-the-envelope calculations
 
