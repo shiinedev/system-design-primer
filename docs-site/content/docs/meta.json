@@ -1,0 +1,14 @@
+{
+  "title": "System Design Primer",
+  "root": true,
+  "pages": [
+    "index",
+    "getting-started",
+    "interview-questions",
+    "scalability",
+    "networking",
+    "data",
+    "communication-security",
+    "appendix"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Scalability fundamentals",
+  "pages": [
+    "start-here",
+    "performance-vs-scalability",
+    "latency-vs-throughput",
+    "availability-vs-consistency",
+    "consistency-patterns",
+    "availability-patterns"
+  ]
+}

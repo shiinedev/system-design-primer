@@ -1,0 +1,10 @@
+{
+  "title": "Networking & delivery",
+  "pages": [
+    "domain-name-system",
+    "content-delivery-network",
+    "load-balancer",
+    "reverse-proxy",
+    "application-layer"
+  ]
+}
